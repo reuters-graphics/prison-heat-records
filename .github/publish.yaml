@@ -1,0 +1,50 @@
+###############################
+# To publish the project via GitHub Actions:
+# - move this file into .github/workflows
+# - uncomment the following lines and configure
+###############################
+
+# name: Publish page
+
+# # These line define what will trigger your project to publish
+# on:
+#   # ... when you hit the API endpoint for this repo
+#   # Read more: https://docs.github.com/en/rest/reference/actions#create-a-workflow-dispatch-event
+#   workflow_dispatch:
+#   # ... whenever you push code to the master branch on GitHub
+#   push:
+#     branches:
+#       - master
+#   # ... on a cron schedule
+#   schedule:
+#     # Customize to whatever interval you need:
+#     # https://crontab.guru/
+#     - cron: '35 * * * *'
+#
+# jobs:
+#   publish-page:
+#     name: Publish page
+#     runs-on: ubuntu-latest
+#     env:
+#       SERVER_WORKFLOW: true
+#       GRAPHICS_SERVER_USERNAME: ${{ secrets.GRAPHICS_SERVER_USERNAME }}
+#       GRAPHICS_SERVER_PASSWORD: ${{ secrets.GRAPHICS_SERVER_PASSWORD }}
+#       GRAPHICS_SERVER_API_KEY: ${{ secrets.GRAPHICS_SERVER_API_KEY }}
+#       SKIP_BUILD_GIT_COMMIT: true
+#       GRAPHICS_SERVER_PUBLISH: true
+#       # This line will notify a Teams channel everytime your project successfully publishes
+#       # GRAPHICS_SERVER_NOTIFY_TEAMS_CHANNEL: # Add a Teams webhook URL here
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: pnpm/action-setup@v4
+#         with:
+#           version: 9
+#       - uses: actions/setup-node@v4
+#         with:
+#           node-version: 20
+#           cache: pnpm
+#       - run: git config user.name github-actions
+#       - run: git config user.email github-actions@github.com
+#       - run: pnpm install
+#       - run: pnpm upload
+#       - run: pnpm publish:publish
