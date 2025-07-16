@@ -20,7 +20,9 @@ Responses to these requests came in the form of emails, spreadsheets and pdfs.
 
 
 ## Air conditioning records 
-Reuters created a single standardized spreadsheet with the responses on the presence of air conditioning in housing units.
+The [indoor-temperatures](https://github.com/reuters-graphics/graphics_2025-prison-hvac-records/tree/main/indoor-temperatures) folder contains a single standardized spreadsheet with the responses on the presence of air conditioning in housing units.
+
+for state facilities from public information requests. Each state folder contains the response from the respective department of corrections.
 
 Each prison was assigned a unique id (<code>facility_id</code>in the data), which matches the Department of Homeland Security’s (DHS) [Prison Boundaries Database](https://hifld-geoplatform.hub.arcgis.com/datasets/geoplatform::prison-boundaries-1/about). The DHS dataset includes the geographic boundaries and attributes of prisons, jails, detention centers, re-entry facilities, jails and juvenile detention centers. 
 
@@ -41,24 +43,8 @@ The field <code>ac_status_details</code> provides additional information:
 
 
 
-
-
-
-
-
-
-
-
-
 **Folder Descriptions**
 - `hvac`: Includes HVAC data for state facilities from public information requests. Each state folder contains the response from the respective department of corrections. 
 - `indoor-temperatures`: Contains indoor temperature log data collected from various facilities. 
 
-## Data collection
-
-In January 2024, Reuters began summiting public information requests to all state and federal prisons. X number of states responded.
-
-The Bureau of Prisons, which oversees all 122 federal prisons, did not respond to Reuters’ request seeking information on how many facilities have air conditioning as of the time of publication.
-
-Responses came in the form of emails, spreadsheets, and pdfs. 
 
