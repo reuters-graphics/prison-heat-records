@@ -29,8 +29,8 @@ If a <code>facility_id</code> is marked at NA in our spreadsheet, it may be beca
 To categorize air conditioning status, Reuters created two additional fields: ac_status and ac_status_details. 
 
 For <code>ac_status</code>, a prison was marked as: 
-Yes: At least one housing unit has air conditioning. This includes both mechanical air conditioning and evaporative cooling systems, commonly known as swamp coolers.
-No: No housing units have air conditioning
+- <code>Yes</code>: At least one housing unit has air conditioning. This includes both mechanical air conditioning and evaporative cooling systems, commonly known as swamp coolers.
+- <code>No</code>: No housing units have air conditioning
 
 The field ac_status_details provides additional information:
 Full: All housing units have air conditioning
