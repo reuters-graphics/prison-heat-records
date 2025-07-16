@@ -20,7 +20,7 @@ Responses to these requests came in the form of emails, spreadsheets and pdfs.
 
 
 ## Air conditioning records 
-The [indoor-temperatures](https://github.com/reuters-graphics/graphics_2025-prison-hvac-records/tree/main/indoor-temperatures) folder contains a single standardized spreadsheet with the responses on the presence of air conditioning in housing units. Each state folder contains the response from the respective department of corrections.
+The [air-conditioning](https://github.com/reuters-graphics/graphics_2025-prison-hvac-records/tree/main/indoor-temperatures) folder contains a single standardized spreadsheet with the responses on the presence of air conditioning in housing units. Each state folder contains the response from the respective department of corrections.
 
 Each prison was assigned a unique id (<code>facility_id</code>in the data), which matches the Department of Homeland Security’s (DHS) [Prison Boundaries Database](https://hifld-geoplatform.hub.arcgis.com/datasets/geoplatform::prison-boundaries-1/about). The DHS dataset includes the geographic boundaries and attributes of prisons, jails, detention centers, re-entry facilities, jails and juvenile detention centers. 
 
