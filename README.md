@@ -32,11 +32,11 @@ For <code>ac_status</code>, a prison was marked as:
 - <code>Yes</code>: At least one housing unit has air conditioning. This includes both mechanical air conditioning and evaporative cooling systems, commonly known as swamp coolers.
 - <code>No</code>: No housing units have air conditioning
 
-The field ac_status_details provides additional information:
-Full: All housing units have air conditioning
-Partial: At least one housing unit has air conditioning
-None: No housing units have air conditioning
-NA: No document was available to determine AC status 
+The field <code>ac_status_details</code> provides additional information:
+- <code>Full</code>: All housing units have air conditioning
+- <code>Partial</code>: At least one housing unit has air conditioning
+- <code>None</code>: No housing units have air conditioning
+- <code>NA</code>: No document was available to determine AC status 
 
 
 
@@ -62,43 +62,3 @@ The Bureau of Prisons, which oversees all 122 federal prisons, did not respond t
 
 Responses came in the form of emails, spreadsheets, and pdfs. 
 
-
-## Data aggregation and fields
-
-A single spreadsheet was created with the aggregated data. The 
-
-The data is tagged with the fields of 
-
-**facility_id**
-    - The facility_id comes from the [Department of Homeland Security](https://hifld-geoplatform.hub.arcgis.com/datasets/geoplatform::prison-boundaries-1/about) (DHS) Homeland Infrastructure Foundation-Level Data (HIFLD), hosted on [this website](https://hifld-geoplatform.hub.arcgis.com/datasets/985a1fa88cac4eef94ad242a7d181a05_0/explore?location=2.785190%2C-10.417157%2C0.66). This dataset includes the geographic boundaries and attributes of "secure detention facilities" (in American states and territories) which includes prisons, jails, detention centers, re-entry facilities, jails, juvenile detention centers and more. 
-
-    If a facility_id does not exist, it may be because the facility is new and opened since the time of the last update by the DHS. In other instances, a facility is colloquially described as a prison but may officially be categorized in another way, making it unavailable in the DHS database. 
-
-**prison_name**
-    - The name of the prison
-
-**state**
-    - The state in which the prison resides
-
-**address**
-    - The address of the prison
-
-**ac_status**
-    - The address of the prison
-
-    Anything that is given NA means that prison did not have a corresponding document. 
-
-
-
-
-
-
-- Full: All housing units have air conditioning
-- Partial: As least one of the prison's housing units has air conditioning
-- None: None of the housing units at a prison has air conditioning. 
-- NA: Tk Tk 
-
-
-## Notes
-
-Some discrepencies may have occured since we have collected the data. A prison could have implemented air conditioning in its prison after we received the records. 
