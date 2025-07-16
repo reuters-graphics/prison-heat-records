@@ -1,6 +1,54 @@
 # Reuters prison and heat reporting data
 
-During the process of reporting on a story that highlights the impacts of heat on the prison population, To better understand the state of heat in prisons, Reuters reach collected data on the presence of HVAC system, building age information, and internal temperature records. 
+Through public records requests, Reuters conducted an analysis of HVAC and indoor temperature log data to better understand how heat affects U.S. prisons.
+
+During the process of reporting on a story highlighting the impacts of rising temperatures on the U.S. prison population, Reuters set out to answer: How many prisons provide cooling for inmates? How hot does it get inside prisons?
+
+To find out, Reuters filed public records requests to every state and federal corrections department in the country asking for data on the presence of air conditioning systems in housing units and copies of indoor temperature logs. 
+
+The absence of air conditioning in prisons can create dangerously high temperatures, potentially causing severe health issues, and in extreme cases, death. 
+
+## Data collection
+
+In February 2024, Reuters submitted public records requests, asking for a spreadsheet or electronic record indicating the presence of air conditioning in housing units in each adult prison. 35 states responded, with 29 states providing records.
+
+The Bureau of Prisons, which oversees all 122 federal prisons, did not respond to Reuters’ request seeking information on how many facilities have air conditioning as of the time of publication.
+
+In December 2024, Reuters submitted an additional round of public records requests, seeking spreadsheets or electronic records on the daily internal temperature readings for each housing area in every adult prison, covering the period from December 1, 2023, to December 1, 2024. Based on interviews with incarcerated individuals, the presence of air conditioning alone did not guarantee relief and adequately comfortable temperatures inside. Reuters identified 16 states across the country that were either in heat-prone areas or provided limited air conditioning. The federal Bureau of Prisons was not included in this request.
+
+Responses to these requests came in the form of emails, spreadsheets and pdfs. 
+
+
+## Air conditioning records 
+Reuters created a single standardized spreadsheet with the responses on the presence of air conditioning in housing units.
+
+Each prison was assigned a unique id (facility_id in the data), which matches the Department of Homeland Security’s (DHS) Prison Boundaries Database. The DHS dataset includes the geographic boundaries and attributes of prisons, jails, detention centers, re-entry facilities, jails and juvenile detention centers. 
+
+If a facility_id is marked at NA in our spreadsheet, it may be because the facility is new and opened since the time of the last update by the DHS. In other instances, a facility may officially be categorized in another way, making it unavailable in the DHS database. 
+
+To categorize air conditioning status, Reuters created two additional fields: ac_status and ac_status_details. 
+
+For ac_status, a prison was marked as: 
+Yes: At least one housing unit has air conditioning. This includes both mechanical air conditioning and evaporative cooling systems, commonly known as swamp coolers.
+No: No housing units have air conditioning
+
+The field ac_status_details provides additional information:
+Full: All housing units have air conditioning
+Partial: At least one housing unit has air conditioning
+None: No housing units have air conditioning
+NA: No document was available to determine AC status 
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Folder Descriptions**
 - `hvac`: Includes HVAC data for state facilities from public information requests. Each state folder contains the response from the respective department of corrections. 
