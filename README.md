@@ -20,7 +20,7 @@ Responses to these requests came in the form of emails, spreadsheets and pdfs.
 
 
 ## Air conditioning records 
-The [air-conditioning](https://github.com/reuters-graphics/graphics_2025-prison-hvac-records/tree/main/indoor-temperatures) folder contains a single standardized spreadsheet with the responses on the presence of air conditioning in housing units. Each state folder contains the response from the respective department of corrections.
+The [air-conditioning](https://github.com/reuters-graphics/graphics_2025-prison-hvac-records/tree/main/air-conditioning) folder contains a single standardized spreadsheet with the responses on the presence of air conditioning in housing units. Each state folder contains the response from the respective department of corrections.
 
 Each prison was assigned a unique id (<code>facility_id</code>in the data), which matches the Department of Homeland Security’s (DHS) [Prison Boundaries Database](https://hifld-geoplatform.hub.arcgis.com/datasets/geoplatform::prison-boundaries-1/about). The DHS dataset includes the geographic boundaries and attributes of prisons, jails, detention centers, re-entry facilities, jails and juvenile detention centers. 
 
@@ -39,10 +39,18 @@ The field <code>ac_status_details</code> provides additional information:
 - <code>NA</code>: No document was available to determine AC status 
 
 
+## Indoor temperature logs
+The [indoor-temperatures](https://github.com/reuters-graphics/graphics_2025-prison-hvac-records/tree/main/indoor-temperatures) folder contains indoor temperature log data received from 5 states, with each state providing documents in their respective recording formats.
 
+For instance, the Texas Department of Criminal Justice provided daily temperature data taken at 3 p.m. in housing areas without air conditioning, while data for areas with air conditioning was collected at 1 p.m. every few days. 
 
-**Folder Descriptions**
-- `hvac`: Includes HVAC data for state facilities from public information requests. Each state folder contains the response from the respective department of corrections. 
-- `indoor-temperatures`: Contains indoor temperature log data collected from various facilities. 
+The California Department of Corrections and Rehabilitation provided temperature records from May through September 2024 in the form of scanned PDFs containing handwritten entries. In total, 19272 PDFs comprising over 27,000 pages were given to Reuters. Of those, Reuters identified 20,342 pages as directly related to internal temperatures. 
 
+We focused on processing information from California as some CDCR facilities were in the nation’s top 10 most heat-exposed prisons, where average outdoor daily temperatures exceeded 85 degrees Fahrenheit (29 degrees Celsius) for multiple days in a row. California state prisons were also where most of the incarcerated individuals we interviewed were located.
 
+To expedite processing this large volume of data, Reuters used Gemini 2.5 Pro, Google’s most advanced AI thinking model, to read and extract the temperature log information, outputting the results in JSON format.
+
+Each page of the PDF was uploaded to Gemini 2.5 Pro along with a set of detailed instructions for data extraction. The AI-extracted data was then manually cleaned and merged into a single dataset. We further filtered this dataset to include internally recorded temperatures from June through August 2024, can be found here.
+
+## Contribution 
+All data and methodology are publicly available for use. 
