@@ -22,7 +22,7 @@ Responses to these requests came in the form of emails, spreadsheets and pdfs.
 ## Air conditioning records 
 Reuters created a single standardized spreadsheet with the responses on the presence of air conditioning in housing units.
 
-Each prison was assigned a unique id (facility_id in the data), which matches the Department of Homeland Security’s (DHS) Prison Boundaries Database. The DHS dataset includes the geographic boundaries and attributes of prisons, jails, detention centers, re-entry facilities, jails and juvenile detention centers. 
+Each prison was assigned a unique id (facility_id in the data), which matches the Department of Homeland Security’s (DHS) [Prison Boundaries Database](https://hifld-geoplatform.hub.arcgis.com/datasets/geoplatform::prison-boundaries-1/about). The DHS dataset includes the geographic boundaries and attributes of prisons, jails, detention centers, re-entry facilities, jails and juvenile detention centers. 
 
 If a facility_id is marked at NA in our spreadsheet, it may be because the facility is new and opened since the time of the last update by the DHS. In other instances, a facility may officially be categorized in another way, making it unavailable in the DHS database. 
 
