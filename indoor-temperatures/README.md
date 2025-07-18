@@ -1,11 +1,3 @@
-# Washington records
+# Indoor temperature records
 
-## Folder structure
-
-**olympic-corrections-center**: Tk
-
-**washington-corrections-center-women**: Tk 
-
-**washington-state-penitentiary**: Tk
-
-**tk**: Tk
+Each state folder contains the response Reuters received from the respective corrections department. 

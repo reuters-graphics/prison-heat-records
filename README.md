@@ -44,7 +44,7 @@ The [indoor-temperatures](https://github.com/reuters-graphics/graphics_2025-pris
 
 For instance, the Texas Department of Criminal Justice provided daily temperature data taken at 3 p.m. in housing areas without air conditioning, while data for areas with air conditioning was collected at 1 p.m. every few days. 
 
-The California Department of Corrections and Rehabilitation provided temperature records from May through September 2024 in the form of scanned PDFs containing handwritten entries. In total, 19272 PDFs comprising over 27,000 pages were given to Reuters. Of those, Reuters identified 20,342 pages as directly related to internal temperatures. 
+The California Department of Corrections and Rehabilitation provided temperature records from May through September 2024 in the form of scanned PDFs containing handwritten entries. In total, 192 PDFs comprising over 27,000 pages were given to Reuters. Of those, Reuters identified 20,342 pages as directly related to internal temperatures. 
 
 We focused on processing information from California as some CDCR facilities were in the nation’s top 10 most heat-exposed prisons, where average outdoor daily temperatures exceeded 85 degrees Fahrenheit (29 degrees Celsius) for multiple days in a row. California state prisons were also where most of the incarcerated individuals we interviewed were located.
 
@@ -54,9 +54,9 @@ Each page of the PDF was uploaded to Gemini 2.5 Pro along with a set of detailed
 
 ## Folder structure
 
-- **air-conditioning**: Contains a single standardized spreadsheet with the responses on the presence of air conditioning in housing units. Each state folder contains the response from the respective department of corrections.
+- **`air-conditioning`**: Contains a single standardized spreadsheet with the responses on the presence of air conditioning in housing units. Each state folder contains the response from the respective department of corrections.
 
-- **indoor-temperatures**: Contains indoor temperature log data received from 5 states, with each state providing documents in their respective recording formats.
+- **`indoor-temperatures`**: Contains indoor temperature log data received from 5 states, with each state providing documents in their respective recording formats.
 
 
 ## Contribution 

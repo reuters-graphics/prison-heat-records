@@ -1,8 +1,13 @@
-## Folder structure
+# Air conditioning records
+
+This folder contains a single standardized spreadsheet, [air_conditioning_status](air_conditioning_status.csv), created with the responses on the presence of air conditioning in housing units.
 
 Each state folder contains the response from the respective department of corrections.
 
+
 ## Data dictionary
+
+The following fields are available in the [air_conditioning_status](air_conditioning_status.csv) file. 
 
 Variable name | Definition
 ------------- | ----------
