@@ -52,5 +52,15 @@ To expedite processing this large volume of data, Reuters used Gemini 2.5 Pro, G
 
 Each page of the PDF was uploaded to Gemini 2.5 Pro along with a set of detailed instructions for data extraction. The AI-extracted data was then manually cleaned and merged into a single dataset. We further filtered this dataset to include internally recorded temperatures from June through August 2024, can be found here.
 
+## Folder structure
+
+Temperatures :
+* an R script that cleans the data
+* an `original/` folder that contains original data as provided by the city. 
+* an `intermediate/` folder - if we did any manual data cleaning. This folder contains data after the manual data cleaning step (e.g. an `xlsx` sheet into which data from a pdf was copied).
+* a `final/` folder that contains data output of the cleaning script, with columns described by the data dictionary below.
+
+
+
 ## Contribution 
 All data and methodology are publicly available for use. 
