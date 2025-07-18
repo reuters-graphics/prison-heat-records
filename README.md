@@ -54,12 +54,9 @@ Each page of the PDF was uploaded to Gemini 2.5 Pro along with a set of detailed
 
 ## Folder structure
 
-Temperatures :
-* an R script that cleans the data
-* an `original/` folder that contains original data as provided by the city. 
-* an `intermediate/` folder - if we did any manual data cleaning. This folder contains data after the manual data cleaning step (e.g. an `xlsx` sheet into which data from a pdf was copied).
-* a `final/` folder that contains data output of the cleaning script, with columns described by the data dictionary below.
+- **air-conditioning**: Contains a single standardized spreadsheet with the responses on the presence of air conditioning in housing units. Each state folder contains the response from the respective department of corrections.
 
+- **indoor-temperatures**: Contains indoor temperature log data received from 5 states, with each state providing documents in their respective recording formats.
 
 
 ## Contribution 
