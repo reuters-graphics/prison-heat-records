@@ -54,9 +54,9 @@ Each page of the PDF was uploaded to Gemini 2.5 Pro along with a set of detailed
 
 ## Folder structure
 
-- **`air-conditioning`**: Contains a single standardized spreadsheet with the responses on the presence of air conditioning in housing units. Each state folder contains the response from the respective department of corrections.
+- `air-conditioning`: Contains a single standardized spreadsheet with the responses on the presence of air conditioning in housing units. Each state folder contains the response from the respective department of corrections.
 
-- **`indoor-temperatures`**: Contains indoor temperature log data received from 5 states, with each state providing documents in their respective recording formats.
+- `indoor-temperatures`: Contains indoor temperature log data received from 5 states, with each state providing documents in their respective recording formats.
 
 
 ## Contribution 
