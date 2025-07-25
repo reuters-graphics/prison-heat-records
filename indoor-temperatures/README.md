@@ -27,3 +27,5 @@ The temperature records vary significantly in format and quality:
 - **PDFs**: Scanned documents, some with handwritten entries  
 - **Images**: Screenshots from internal building management systems
 - **Automated systems**: Data pulled directly from building automation systems at regular intervals
+
+Any records that were either difficult to identify or interpret were excluded from our public release.
