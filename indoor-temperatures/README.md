@@ -9,15 +9,15 @@ The records were submitted in a variety of formats, including spreadsheets and i
 
 The following 5 states provided indoor temperature records:
 
-- **California**: Temperature records from May-September 2024 in scanned PDFs with handwritten entries. AI-extracted data available in JSON format for June-August 2024. See [california/README.md](california/README.md) for details.
+- **[California](california/README.md)**: Temperature records from May-September 2024 in scanned PDFs with handwritten entries. AI-extracted data available in JSON format for June-August 2024.
 
-- **Pennsylvania**: Temperature readings from 10 institutions with building management systems tracking temperatures every 30 minutes to daily. See [pennsylvania/README.md](pennsylvania/README.md) for details.
+- **[Pennsylvania](pennsylvania/README.md)**: Temperature readings from 10 institutions with building management systems tracking temperatures every 30 minutes to daily.
 
-- **Texas**: ACPAC daily temperature reports for air-conditioned housing areas and SB1R56 reports for non-air-conditioned areas taken daily at 3pm. See [texas/README.md](texas/README.md) for details.
+- **[Texas](texas/README.md)**: ACPAC daily temperature reports for air-conditioned housing areas and SB1R56 reports for non-air-conditioned areas taken daily at 3pm.
 
-- **Utah**: Indoor temperature data from Central Utah Correctional Facility and Utah State Correctional Facility. See [utah/README.md](utah/README.md) for details.
+- **[Utah](utah/README.md)**: Indoor temperature data from Central Utah Correctional Facility and Utah State Correctional Facility.
 
-- **Washington**: Temperature data from Olympic Corrections Center, Washington Corrections Center for Women, and Washington State Penitentiary. See [washington/README.md](washington/README.md) for details.
+- **[Washington](washington/README.md)**: Temperature data from Olympic Corrections Center, Washington Corrections Center for Women, and Washington State Penitentiary. 
 
 ## Data formats and quality
 
