@@ -1,5 +1,6 @@
 # Utah records
 
+Utah records include the following documents: 
 
 `central-utah-correctional-facility`: Indoor temperature data for Central Utah Correctional. The data is sourced from Siemens, which pulls readings directly from the building automation system.
 

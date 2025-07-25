@@ -1,10 +1,5 @@
 # Washington records
 
+Washington provided temperature data from the following institutions: Olympic Corrections Center, Washington Corrections Center for Women, and Washington State Penitentiary.
 
-`olympic-corrections-center`: Tk
-
-`washington-corrections-center-women`: Tk 
-
-`washington-state-penitentiary`: Tk
-
-`tk`: Tk
+Reuters also received additional records that were either difficult to identify or interpret. As a result, these records were excluded from our public release to ensure accuracy and clarity.
