@@ -1,12 +1,10 @@
 # Reuters prison and heat reporting data
 
-Through public records requests, Reuters conducted an analysis of air conditioning and indoor temperature log data to better understand how heat affects U.S. prisons.
+This repo contains data associated with [Scorching Cells](https://www.reuters.com/graphics/USA-TEMPERATURE/PRISONS/jnpwbejwlvw/), where Reuters analyzed air conditioning and indoor temperature log data, obtained through public records requests, to better understand how heat affects U.S. prisons.
 
 During the process of reporting on a story highlighting the impacts of rising temperatures on the U.S. prison population, Reuters set out to answer: How many prisons provide cooling for inmates? How hot does it get inside prisons?
 
-To find out, Reuters filed public records requests to every state and federal corrections department in the country asking for data on the presence of air conditioning systems in housing units and copies of indoor temperature logs. 
-
-The absence of air conditioning in prisons can create dangerously high temperatures, potentially causing severe health issues, and in extreme cases, death. 
+Reuters filed public records requests to every state and federal corrections department in the U.S. asking for data on the presence of air conditioning systems in housing units and copies of indoor temperature logs. 
 
 ## Data collection
 
@@ -21,7 +19,7 @@ Responses to these requests came in the form of emails, spreadsheets and pdfs.
 ## Air conditioning records 
 The [air-conditioning](https://github.com/reuters-graphics/graphics_2025-prison-hvac-records/tree/main/air-conditioning) folder contains a single standardized spreadsheet with the responses on the presence of air conditioning in housing units. Each state folder contains the response from the respective department of corrections.
 
-Each prison was assigned a unique id (<code>facility_id</code>in the data), which matches the Department of Homeland Security’s (DHS) [Prison Boundaries Database](https://hifld-geoplatform.hub.arcgis.com/datasets/geoplatform::prison-boundaries-1/about). The DHS dataset includes the geographic boundaries and attributes of prisons, jails, detention centers, re-entry facilities, jails and juvenile detention centers. 
+Each prison was assigned a unique id (<code>facility_id</code>in the data), which matches the Department of Homeland Security’s (DHS) [Prison Boundaries Database](https://hifld-geoplatform.hub.arcgis.com/datasets/geoplatform::prison-boundaries-1/about). The DHS dataset includes the geographic boundaries and attributes of prisons, jails, detention centers, re-entry facilities and juvenile detention centers. 
 
 If a <code>facility_id</code> is marked as NA in our spreadsheet, it may be because the facility is new and opened since the time of the last update by the DHS. In other instances, a facility may officially be categorized in another way, making it unavailable in the DHS database. 
 
@@ -50,7 +48,7 @@ We focused on processing information from California as some CDCR facilities wer
 
 To expedite processing this large volume of data, Reuters used [Gemini 2.5 Pro](https://deepmind.google/models/gemini/pro/), Google’s most advanced AI thinking model, to read and extract the temperature log information, outputting the results in JSON format.
 
-Each page of the PDF was uploaded to Gemini 2.5 Pro along with a set of detailed instructions for data extraction. The AI-extracted data was then manually cleaned and merged into a single dataset. We further filtered this dataset to include internally recorded temperatures from June through August 2024.
+Each page of the PDF was uploaded to Gemini 2.5 Pro along with a set of detailed instructions for data extraction. The AI-extracted data was then manually cleaned and merged into a single dataset. We further filtered this dataset to include internally recorded temperatures from June through August 2024. To find out more about how Reuters validated the accuracy of the AI-extracted data, please check out the [methodology]INSERT LINK!!!!!!!! 
 
 ## Folder structure
 
