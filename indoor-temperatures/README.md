@@ -17,7 +17,7 @@ The following 5 states provided indoor temperature records:
 
 - **[Utah](utah/README.md)**: Indoor temperature data from Central Utah Correctional Facility and Utah State Correctional Facility.
 
-- **[Washington](washington/README.md)**: Temperature data from Olympic Corrections Center, Washington Corrections Center for Women, and Washington State Penitentiary. 
+- **[Washington](washington/README.md)**: Temperature data from Olympic Corrections Center, Washington Corrections Center for Women and Washington State Penitentiary. 
 
 ## Data formats and quality
 
