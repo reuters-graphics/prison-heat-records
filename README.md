@@ -1,7 +1,5 @@
 # Reuters prison and heat reporting data
 
-Test from Julia
-
 This repo contains data associated with [Scorching Cells](https://www.reuters.com/graphics/USA-TEMPERATURE/PRISONS/jnpwbejwlvw/), where Reuters analyzed air conditioning and indoor temperature log data, obtained through public records requests, to better understand how heat affects U.S. prisons.
 
 During the process of reporting on a story highlighting the impacts of rising temperatures on the U.S. prison population, Reuters set out to answer: How many prisons provide cooling for inmates? How hot does it get inside prisons?
