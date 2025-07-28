@@ -58,4 +58,4 @@ Each page of the PDF was uploaded to Gemini 2.5 Pro along with a set of detailed
 
 
 ## Contribution 
-All data and methodology are publicly available for use. 
+All data and methodology are publicly available for use, with a Reuters citation. 
