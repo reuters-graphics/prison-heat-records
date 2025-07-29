@@ -48,7 +48,7 @@ We focused on processing information from California as some CDCR facilities wer
 
 To expedite processing this large volume of data, Reuters used [Gemini 2.5 Pro](https://deepmind.google/models/gemini/pro/), Google’s most advanced AI thinking model, to read and extract the temperature log information, outputting the results in JSON format.
 
-Each page of the PDF was uploaded to Gemini 2.5 Pro along with a set of detailed instructions for data extraction. The AI-extracted data was then manually cleaned and merged into a single dataset. We further filtered this dataset to include internally recorded temperatures from June through August 2024. To find out more about how Reuters validated the accuracy of the AI-extracted data, please check out the [methodology]INSERT LINK!!!!!!!! 
+Each page of the PDF was uploaded to Gemini 2.5 Pro along with a set of detailed instructions for data extraction. The AI-extracted data was then manually cleaned and merged into a single dataset. We further filtered this dataset to include internally recorded temperatures from June through August 2024. To find out more about how Reuters validated the accuracy of the AI-extracted data, please check out the [methodology](https://www.reuters.com/world/us/how-reuters-collected-analyzed-prison-temperature-data-2025-07-30/).
 
 ## Folder structure
 
